@@ -60,6 +60,7 @@ namespace ContosoBot {
                     ThumbnailCard greetcard = new ThumbnailCard() {
                         Title = "Contoso Online Bank Service",
                         Subtitle = "My name is ContosoBot",
+                        Text = "Note: for security reasons, this bot cannot make transactions. To manage your account please go to http://contoso.com",
                         Images = ims,
                         Buttons = buttons
                     };
@@ -71,7 +72,7 @@ namespace ContosoBot {
                 }
                 else {
                     if(udat.GetProperty<string>("fname") == null && udat.GetProperty<string>("lname") == null) {
-                        outp = "You haven\'t set a name yet, please set a name by typing in \"setname Firstname Lastname\"\n";
+                        outp = "You haven\'t set a name or logged in yet, please set a name by typing in \"setname Firstname Lastname\" of login with \"login Username Password\"";
                     }
                     else {
                         outp = "Sorry, " + udat.GetProperty<string>("fname") + ", I missed that.";
@@ -84,6 +85,7 @@ namespace ContosoBot {
                         string pass = "";
                         string fname = "";
                         string lname="";
+                        float balance;
                         bool u = true;
                         for(int x = 6; x < umess.Length; x++) {
                             if(umess[x].ToString()==" ") {
@@ -121,8 +123,16 @@ namespace ContosoBot {
                                 catch {
                                     lname = "";
                                 }
+                                try {
+                                    balance = cdat.First(item => item.username == user).balance;
+                                }
+                                catch {
+                                    balance = 0;
+                                }
                                 udat.SetProperty<string>("fname",fname);
                                 udat.SetProperty<string>("lname",lname);
+                                udat.SetProperty<float>("balance",balance);
+                                udat.SetProperty<bool>("loggedin",true);
                                 await stacli.BotState.SetUserDataAsync(activity.ChannelId,activity.From.Id,udat);
                                 outp = $"Hello {fname} {lname}, welcome back.";
                             }
@@ -130,6 +140,19 @@ namespace ContosoBot {
                     }
                 }
 
+                if(umess.ToLower().Equals("newaccount")) {
+                    //Coming soon
+                }
+
+                if(umess.ToLower().Contains("balance")) {
+                    if(udat.GetProperty<bool>("loggedin")) {
+                        float bal = udat.GetProperty<float>("balance");
+                        outp=$"Your balance is: ${bal}";
+                    }
+                    else {
+                        outp = "Sorry, you're not logged in yet, please login with the command \"login Username Password\"";
+                    }
+                }
                 if(umess.ToLower().Contains("setname")) {
                     if((umess.Length - 7)<=0){
                         outp = "Sorry, you must put a name.";
@@ -255,7 +278,8 @@ namespace ContosoBot {
                 }
                 */
 
-                if(umess.ToLower().Equals("getdata")) {
+                /*
+                if(umess.ToLower().Equals("getdata")) { //test azure API call
                     List<custdat> cdat = await azuremanager.AzureManagerInstance.GetCustDat();
                     outp = "";
                     try {
@@ -268,14 +292,16 @@ namespace ContosoBot {
                         //outp += c.firstname;
                     //}
                 }
+                */
 
                 if(umess.ToLower().Contains("help")) {
-                    outp = "Help:\n\n\nlogin Username Password - Log in\n\nexchange Amount Currency(e.g. NZD) Currency - Get currency exchange info\n\nhelp - This help\n\nsetname Firstname Lastname - Set name\n\nclear - Logout\n\nMore info can be found on our homepage http://contoso.com";
+                    outp = "Help:\n\n\nlogin Username Password - Log in\n\nexchange Amount Currency(e.g. NZD) Currency - Get currency exchange info\n\nhelp - This help\n\nbalance - Show your balance if logged in\n\ngreeting - Show title card\n\nsetname Firstname Lastname - Set name\n\nclear - Logout\n\nMore info can be found on our homepage http://contoso.com";
                 }
 
                 if(umess.ToLower().Equals("greeting")) {
                     udat.SetProperty("repcust",false);
                     await stacli.BotState.SetUserDataAsync(activity.ChannelId,activity.From.Id,udat);
+                    outp = "You will see the title card on your next message";
                 }
                 /*// calculate something for us to return
                 int length = (activity.Text ?? string.Empty).Length;

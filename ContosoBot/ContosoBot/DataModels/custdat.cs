@@ -30,7 +30,7 @@ namespace ContosoBot.DataModels {
         [JsonProperty(PropertyName = "lastname")]
         public string lastname { get; set; }
 
-        [JsonProperty(PropertyName = "balence")]
+        [JsonProperty(PropertyName = "balance")]
         public int balance { get; set; }
 
         [JsonProperty(PropertyName = "username")]
@@ -38,5 +38,8 @@ namespace ContosoBot.DataModels {
 
         [JsonProperty(PropertyName = "password")]
         public string password { get; set; }
+
+        [JsonProperty(PropertyName = "occupation")]
+        public string occupation { get; set; }
     }
 }
