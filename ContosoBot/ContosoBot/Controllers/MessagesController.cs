@@ -58,7 +58,7 @@ namespace ContosoBot {
                     buttons.Add(sitebut);
 
                     ThumbnailCard greetcard = new ThumbnailCard() {
-                        Title = "Contoso Online Bank Support",
+                        Title = "Contoso Online Bank Service",
                         Subtitle = "My name is ContosoBot",
                         Images = ims,
                         Buttons = buttons
@@ -316,5 +316,7 @@ namespace ContosoBot {
 
             return null;
         }
+
+        //Written by Donutnz
     }
 }
