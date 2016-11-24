@@ -1,0 +1,48 @@
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Bot Application1.dll.config
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Bot Application1.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Bot Application1.pdb
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Autofac.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Chronic.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.Bot.Builder.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.Bot.Connector.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Newtonsoft.Json.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Net.Http.Formatting.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Web.Http.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Web.Http.WebHost.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Autofac.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.Bot.Builder.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.Bot.Connector.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Newtonsoft.Json.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Net.Http.Formatting.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Web.Http.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Web.Http.WebHost.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\obj\Debug\ContosoBot.csprojResolveAssemblyReference.cache
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\obj\Debug\Bot Application1.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\obj\Debug\Bot Application1.pdb
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.WindowsAzure.Mobile.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.WindowsAzure.Mobile.Ext.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Net.Http.Extensions.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Net.Http.Primitives.dll
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.WindowsAzure.Mobile.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\Microsoft.WindowsAzure.Mobile.Ext.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Net.Http.Extensions.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\bin\System.Net.Http.Primitives.xml
+C:\Users\Donutnz\Documents\contoso\ContosoBot\ContosoBot\ContosoBot\obj\Debug\ContosoBot.csproj.App.config
